@@ -1,0 +1,7 @@
+.header {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(image-background\ pizza\ store.jpg);
+    background-position:center;
+    background-size: cover;
+}

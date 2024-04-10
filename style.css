@@ -1,0 +1,433 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --text-color: #fff;
+    --bg--color:var(yellow);
+    --second-bg-color:var(red);
+    --main-color:#13bbff;
+    --other-color:#c3cad5;
+
+    --h1-font:4.5rem;
+    --h2-font:2.9rem;
+    --p-font:1rem;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-image: url("Default_pizza_store_0.jpg");
+    background-position:bottom;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-image: url(Default_vibrant_setting_for_a_pizza_shop_2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    color: whitesmoke;
+    z-index: 1000;
+}
+
+nav ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+ul :hover{
+    color:  #fd641d;
+    text-decoration: underline;
+    transform: scale(1.2);
+
+}
+
+li a{
+    text-decoration:none;
+    font-size: 1.5rem;
+    color:wheat;
+    margin-inline: 1.5rem;
+    font-weight: 600;
+}
+
+.logo img{
+    width: 250px;
+    position: relative;
+    margin-top: 6px;
+    margin-right: 500px;
+   
+}
+
+.main{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 156px;
+}
+
+.mainText{
+    margin-top: 60px;
+    color:wheat;
+    text-align: center;
+}
+
+span{
+    color: #fd641d;
+}
+.mainText h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.mainText p{
+    font-size: 30px;
+    margin-top: 5rem;
+    color: white;
+}
+
+.mainText button{
+    width: 140px;
+    height: 38px;
+    background-color: rgb(244, 126, 84);
+    color: #fff;
+    border: none;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.mainText button:hover{
+    transform: scale(1.2);
+}
+
+.head{
+    text-align: center;
+    color: wheat;
+    padding: 88px;
+}
+
+.head:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.foods{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    justify-content: center;
+}
+
+.foods img{
+    width: 100%;
+}
+.foods img:hover{
+    transform: scale(1.2);
+}
+
+.card{
+    width: 200px;
+    background-color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.card p{
+    padding: 12px;
+}
+
+.card button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(244, 126, 84);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.card button:hover{
+    transform: scale(1.2);
+}
+
+.drinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    justify-content: center;
+}
+
+
+.drinks img{
+    width: 100%;
+}
+
+.drinks img:hover{
+    transform: scale(1.2);
+}
+
+.drinksCard{
+    width: 200px;
+    background-color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.drinksCard p{
+    padding: 12px;
+}
+
+.drinksCard button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(244, 126, 84);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.drinksCard button:hover{
+    transform: scale(1.2);
+}
+
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;  
+}
+
+.reviewCard{
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.reviewCard:hover{
+    transform: scale(1.2);
+}
+
+
+.reviews img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.reviews img button:hover{
+    transform: scale(1.2);
+}
+
+
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogCard{
+    width: 300px;
+    height: 280px;
+    padding: 12px;
+    margin-top: 1.5rem;
+    margin-inline:1.5rem;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.blogCard img{
+    width: 100%;
+}
+
+.blogCard p{
+    padding: 12px;
+}
+
+.blogCard a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(248, 174, 36);
+    position: relative;
+    top: 12px;
+    padding: 5px 14px;
+    border-radius: 12px;
+}
+
+
+.blogCard:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    flex-wrap: wrap;
+    padding: 66px;
+    margin-top: 66px;
+}
+
+.footer .text h3, p{
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.footer .text h3, p:hover{
+    color: #fd641d;
+    transform: scale(1.2);
+}
+
+.cardDetail{
+    width: 600px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    top: 4%;
+    color: black;
+}
+
+.cardDetail img{
+    width: 300px;
+}
+
+.cardDetail i{
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    left: 0px;
+    top: -1px;
+    padding: 8px;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+
+.drinksDetail{
+    width: 600px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    top: 4%;
+    color: black;
+}
+
+.drinksDetail img{
+    width: 300px;
+}
+
+.drinksDetail i{
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    left: 0px;
+    top: -1px;
+    padding: 8px;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+
+#bar{
+    display: none;
+    font-size: 27px;
+}
+
+@media screen and (max-width:1100px){
+    header {
+        display: block;
+        text-align: center;
+    }
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px){
+    ul li{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+    .main{
+        display: block;
+        text-align: center;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    header {
+        display: block;
+        text-align: center;
+    }
+    .cardDetail{
+        width: 80%;
+    }
+    .cardDetail img{
+        width: 200px;
+    }
+    .blogCard{
+    margin: 1.5rem;
+    }
+}
+ 
+
